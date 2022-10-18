@@ -1,6 +1,6 @@
-# React BOILERPLATE
+# Tokopedia Scraper FE
 
-Ini adalah Boilerplate React dengan dependencies
+Ini adalah Project React dengan dependencies
 
 - React
 - React Router (Latest)
@@ -21,7 +21,7 @@ Ini adalah Boilerplate React dengan dependencies
 
 - Clone Project ini ( Direkomendasikan menggunakan SSH )
 
-> `git clone git@github.com:maulanasdqn/netflox`
+> `git clone git@github.com:maulanasdqn/tokopedia-scraper-fe`
 
 ## Install NodeJS dan Yarn
 
@@ -89,3 +89,32 @@ Untuk bisa menggunakan husky agar berjalan baik dan benar maka perlu di inisiali
 
 - Jalankan perintah
   > `npx husky-init`
+
+## Running Test
+
+Anda bisa melakukan Running test dengan perintah
+
+> `yarn test` untuk watch mode \
+> `yarn test:run` untuk test sekali jalan \
+> `yarn test:coverage` untuk test coverage
+
+## Running ESLint dan Formatter
+
+> `yarn format` untuk format dokumen sesuai dengan requirement di .prettierrc \
+> `yarn lint` untuk linting dokumen \
+> `yarn lint:fix` untuk linting dokumen namun lebih strict
+
+## Deployment
+
+### Netlify or Vercel
+
+Jika anda akan melakukan Deployment ke Server atau ke Vercel / Netlify
+
+- Bind Repository ini ke Vercel/Netlify kemudian arahkan ke branch dev
+
+### Server VPS/Docker
+
+Jika anda akan melakukan Deployment ke vps anda bisa melakukan dengan Docker
+
+- build image docker
+- release container di vps
